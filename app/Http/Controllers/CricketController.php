@@ -33,5 +33,4 @@ class CricketController extends Controller
         
         return  view('phpunit');
     }
-    
 }
