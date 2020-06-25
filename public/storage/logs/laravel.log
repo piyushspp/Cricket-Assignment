@@ -1,0 +1,48 @@
+[2020-06-25 02:50:34] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /var/www/html/cricket/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:192)
+[stacktrace]
+#0 /var/www/html/cricket/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(118): Illuminate\\Log\\LogManager->resolve(NULL)
+#1 /var/www/html/cricket/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(98): Illuminate\\Log\\LogManager->get(NULL)
+#2 /var/www/html/cricket/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(547): Illuminate\\Log\\LogManager->driver()
+#3 /var/www/html/cricket/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(122): Illuminate\\Log\\LogManager->error('The \"\" director...', Array)
+#4 /var/www/html/cricket/app/Exceptions/Handler.php(39): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Symfony\\Component\\Finder\\Exception\\DirectoryNotFoundException))
+#5 /var/www/html/cricket/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(403): App\\Exceptions\\Handler->report(Object(Symfony\\Component\\Finder\\Exception\\DirectoryNotFoundException))
+#6 /var/www/html/cricket/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(111): Illuminate\\Foundation\\Http\\Kernel->reportException(Object(Symfony\\Component\\Finder\\Exception\\DirectoryNotFoundException))
+#7 /var/www/html/cricket/public/index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#8 {main}
+"} 
+[2020-06-25 02:50:34] laravel.ERROR: The "" directory does not exist. {"exception":"[object] (Symfony\\Component\\Finder\\Exception\\DirectoryNotFoundException(code: 0): The \"\" directory does not exist. at /var/www/html/cricket/vendor/symfony/finder/Finder.php:589)
+[stacktrace]
+#0 /var/www/html/cricket/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(88): Symfony\\Component\\Finder\\Finder->in(false)
+#1 /var/www/html/cricket/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(65): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->getConfigurationFiles(Object(Illuminate\\Foundation\\Application))
+#2 /var/www/html/cricket/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#3 /var/www/html/cricket/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#4 /var/www/html/cricket/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#5 /var/www/html/cricket/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(135): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#6 /var/www/html/cricket/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(109): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#7 /var/www/html/cricket/public/index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#8 {main}
+"} 
+[2020-06-25 02:50:57] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /var/www/html/cricket/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:192)
+[stacktrace]
+#0 /var/www/html/cricket/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(118): Illuminate\\Log\\LogManager->resolve(NULL)
+#1 /var/www/html/cricket/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(98): Illuminate\\Log\\LogManager->get(NULL)
+#2 /var/www/html/cricket/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(547): Illuminate\\Log\\LogManager->driver()
+#3 /var/www/html/cricket/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(122): Illuminate\\Log\\LogManager->error('The \"\" director...', Array)
+#4 /var/www/html/cricket/app/Exceptions/Handler.php(39): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Symfony\\Component\\Finder\\Exception\\DirectoryNotFoundException))
+#5 /var/www/html/cricket/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(403): App\\Exceptions\\Handler->report(Object(Symfony\\Component\\Finder\\Exception\\DirectoryNotFoundException))
+#6 /var/www/html/cricket/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(111): Illuminate\\Foundation\\Http\\Kernel->reportException(Object(Symfony\\Component\\Finder\\Exception\\DirectoryNotFoundException))
+#7 /var/www/html/cricket/public/index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#8 {main}
+"} 
+[2020-06-25 02:50:57] laravel.ERROR: The "" directory does not exist. {"exception":"[object] (Symfony\\Component\\Finder\\Exception\\DirectoryNotFoundException(code: 0): The \"\" directory does not exist. at /var/www/html/cricket/vendor/symfony/finder/Finder.php:589)
+[stacktrace]
+#0 /var/www/html/cricket/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(88): Symfony\\Component\\Finder\\Finder->in(false)
+#1 /var/www/html/cricket/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(65): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->getConfigurationFiles(Object(Illuminate\\Foundation\\Application))
+#2 /var/www/html/cricket/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#3 /var/www/html/cricket/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#4 /var/www/html/cricket/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#5 /var/www/html/cricket/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(135): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#6 /var/www/html/cricket/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(109): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#7 /var/www/html/cricket/public/index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#8 {main}
+"} 
