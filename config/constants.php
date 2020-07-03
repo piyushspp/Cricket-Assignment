@@ -38,6 +38,7 @@ return [
         'upload_logo' => 'Please upload Company Logo.',
         'upload_image' => 'Please upload Player Image.',
         'valid-image' => 'Please upload valid image.',
+        'userExists' => 'User already exists in system.',
     ],
 ];
 

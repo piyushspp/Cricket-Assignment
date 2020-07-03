@@ -39,4 +39,6 @@ Route::delete('remove-player-from-team','PlayerController@removePlayer');
 Route::post('play-match','MatchesController@teamMatch');
 Route::get('team-points-table','TeamController@teamPointsTable');
 
+Route::post('signup','UsersController@signup');
+
 

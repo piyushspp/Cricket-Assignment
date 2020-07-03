@@ -17,6 +17,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('register', 'AuthController@register');
 Route::get('home', 'CricketController@home');
 Route::get('team-detail/{teamId}', 'CricketController@team');
 Route::get('team-matches-summary/{teamId}','MatchesController@teamMatchesSummary');
